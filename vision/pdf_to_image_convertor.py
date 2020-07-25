@@ -19,8 +19,8 @@ from pdf2image.exceptions import (
 
 
 
-base_pdf_url = "C:\\Users\\blessonj\\Python\\pdfs\\"
-output_path = "C:\\Users\\blessonj\\Python\\jpeg_files\\"
+base_pdf_url = "C:\\Users\\blessonj\\Python\\pdfs_training\\"
+output_path = "C:\\Users\\blessonj\\Python\\jpeg_files_training\\"
 pdf_num = 1
 
 pdf_files = []
