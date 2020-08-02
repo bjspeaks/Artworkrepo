@@ -19,8 +19,8 @@ from pdf2image.exceptions import (
 
 
 
-base_pdf_url = "C:\\Users\\blessonj\\Python\\pdfs_training\\"
-output_path = "C:\\Users\\blessonj\\Python\\jpeg_files_training\\"
+base_pdf_url = "C:\\Users\\blessonj\\Python\\pdfs_training\\NewTrainingSet\\"
+output_path = "C:\\Users\\blessonj\\Python\\jpeg_files_training\\NewTrainingSet\\"
 pdf_num = 1
 
 pdf_files = []
@@ -29,7 +29,6 @@ for file in glob.glob(base_pdf_url+"*.pdf"):
     
 
 print("Initialised the pdf url variable...")
-
 
 
 '''
