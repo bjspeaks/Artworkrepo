@@ -27,7 +27,7 @@ def rgb2greyscale(base_image_path,output_image_path):
     for file in glob.glob(base_image_path+"*.jpg"):
         image_files.append(file)
     
-    image_count = 22
+    image_count = 49
     
     print("Initialised the image url variables...")
     
@@ -55,7 +55,7 @@ def stretchimage(base_image_path,output_image_path):
     for file in glob.glob(base_image_path+"*.jpg"):
         image_files.append(file)
     
-    image_count = 22
+    image_count = 49
     
     print("Initialised the image url variables...")
     
@@ -77,8 +77,8 @@ def stretchimage(base_image_path,output_image_path):
 
 '''Initialize the path of the image file'''
 
-base_image_path = "C:\\Users\\blessonj\\Python\\jpeg_files_training\\NewTrainingSet\\"
-
+## base_image_path = "C:\\Users\\blessonj\\Python\\jpeg_files_training\\NewTrainingSet\\"
+base_image_path = "C:\\Users\\blessonj\\Python\\ArtWorkProject\\Collaterals\\jpeg_files_training\\"
 
 '''Invoke the image manipulation functions'''
 
